@@ -1,0 +1,35 @@
+{
+  "cookies": [
+    {
+      "name": "__Host-next-auth.csrf-token",
+      "value": "2958a52e330b3e5369effdf4bb26b96e2199155d954903b40f2045249ec3feb8%7Cf8e059ac335088d022a3b262534bc87775f455206cf8060e97e9731e2c3dade2",
+      "domain": "todotest.site",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.callback-url",
+      "value": "https%3A%2F%2Ftodotest.site%2Fauth%2Flogin",
+      "domain": "todotest.site",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.session-token",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..9gGteYpYIWXGjgmj.gyvAbHmOY1r8IsLV5FAzSkMz-GBwDX3HJ27MfoXgb3jQRZ-w3BHt6ewf98GPuDCdyp_M_7YyEYRFkHdV70FAO1lTY9AXx7kBLTinjdOajkP3weM1g6LdkOSRzDQM0FsrKLVFrrkV_VAJdp0w5kor1-qlQR6yHN7BYNCddBBPioKn6J6BComhwykjqlX-SyjjcO20SQ.xqt9BL_p5sg1lxkhjPAahg",
+      "domain": "todotest.site",
+      "path": "/",
+      "expires": 1780652591.833963,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

@@ -1,0 +1,13 @@
+1. Should be any aproach to delete already registered user (admin UI or better - API command for delete) Priority Medium
+2. After registration it should be message to registered email that user has registered successfully and complete registration should be after clicking this message.  Medium
+3. Task description disappears after any moving by drag-and-drop to another status (there is no such problem by Edit moving). Priority High
+4. Operations 'Add New Task' or 'Delete' move all other existing tasks to the Backlog status and column. Priority Critical
+5. Long task's title overlap Menu button (...) and it's impossible to edit or delete the task. Priority Critical (or Blocker)
+6. (Related to 5 - the same root cause)Long task's title and long task's description displayed out of card's border. Priority High
+7. After Logout and Login again - all tests become in Backlog columns but before Logout they were in other columns - ToDo, In Progres
+
+
+Concerns - not bugs:
+1. Registration flow better do with email confirmation
+2. Should be "forgot password" flow
+3. Condition for sorting task's cards in column should be described in PRD doc.

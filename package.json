@@ -1,0 +1,31 @@
+{
+  "name": "invicta",
+  "version": "1.0.0",
+  "description": "npm install -g typescript     npm init -y     npm install -D @playwright/test     npx playwright install     npx install test     npm install --save-dev dotenv     npm install --save-dev @types/node",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": [
+      "node"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "dotenv": "^17.4.2"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
