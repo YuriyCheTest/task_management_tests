@@ -8,6 +8,8 @@
     npx install test
     npm install --save-dev dotenv
     npm install --save-dev @types/node
+    npm install log4js
+    npm install --save-dev @types/log4js
 
 # 3. Run tests:
       Move to project's folder and run:

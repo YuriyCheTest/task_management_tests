@@ -2,6 +2,7 @@ import { Page } from '@playwright/test';
 import { BasePage } from './BasePage';
 import { CreateNewTask } from '../components/CreateNewTask';
 import { TaskCard } from '../components/TaskCard';
+import { logger } from '../utils/logger';
 
 
 export class DashboardPage extends BasePage {
@@ -22,8 +23,10 @@ export class DashboardPage extends BasePage {
   doneList: TaskCard[] = []; 
 
   async addTask(title: string, description: string, priority?: string) {
+    logger.info(`Clicking Add New Task button`);
     await this.addNewTaskButton().click();
     this.createNewTask = new CreateNewTask(this.page);
+    logger.info(`Filling new task with title: ${title}, description: ${description}, priority: ${priority}`);
     await this.createNewTask.createTask(title, description, priority);
     const taskCard = new TaskCard(this.page, this.backlogColumn, this.backlogList.length, title, description, priority);
     this.backlogList.push(taskCard);
@@ -31,6 +34,7 @@ export class DashboardPage extends BasePage {
   }
 
   async logout() {
+    logger.info(`Logout...`);
     await this.logoutButton().click();
   }
 
